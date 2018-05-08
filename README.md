@@ -13,9 +13,9 @@ This is the parent transformation, where details about Kafka is needed. The sub-
 ![Alt text](Sent-Mail-Consumer.JPG?raw=true "Sent-Mail-Consumer Transformation")
 <br>
 ![Alt text](Sent-Mail-Consumer-Details.JPG?raw=true "Detail of Kafka Consumer")
-<br>
+
 2. Sent-Email.ktr<br>
 This is the sub-transfomartion, where the transformation or data loading happened.<br>
-![Alt text](Sent-Email.JPG?raw=true "Sent-Email Transformation")<br>
+![Alt text](Sent-Email.JPG?raw=true "Sent-Email Transformation")
 Sub-transformation should start with 'Get records from stream' plugin. Inside the plugin the only thing needs to specify is the message name.<br>
-![Alt text](Sent-Email-Stream.JPG?raw=true "Sent-Email Transformation")<br>
+![Alt text](Sent-Email-Stream.JPG?raw=true "Sent-Email Transformation")
