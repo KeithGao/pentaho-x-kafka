@@ -1,4 +1,4 @@
-# pentaho-x-kafka
+# Pentaho Data Integration x Apache Kafka
 How to get stream data from Kafka topic using Pentaho Data Integration (kettle).
 ---------------------
 
@@ -9,3 +9,5 @@ In this repository, we provides sample working PDI tranformation based on the tu
 There are 2 transformation files:
 1. Sent-Email.ktr
 2. Sent-Email-Consumer.ktr
+
+![Alt text](Sent-Email.JPG?raw=true "Sent-Email Transformation")
