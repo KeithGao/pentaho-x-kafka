@@ -9,11 +9,15 @@ This repository provides sample working PDI tranformation based on the tutorial.
 There are 2 transformation files:
 1. Sent-Mail-Consumer.ktr<br>
 This is the parent transformation, where details about Kafka is needed, and also the sub-transformation location path.<br>
-![Alt text](img/Sent-Mail-Consumer.JPG?raw=true "Sent-Mail-Consumer Transformation") <br>
+![Alt text](img/Sent-Mail-Consumer.JPG?raw=true "Sent-Mail-Consumer Transformation")
+<br>
+<br>
 ![Alt text](img/Sent-Mail-Consumer-Details.JPG?raw=true "Detail of Kafka Consumer")
 
 2. Sent-Email.ktr<br>
-This is the sub-transfomartion, where the transformation process or data loading happened.<br>
+<p>This is the sub-transfomartion, where the transformation process or data loading happened.
+</p>
 ![Alt text](img/Sent-Email.JPG?raw=true "Sent-Email Transformation")
-<br>Sub-transformation should start with 'Get records from stream' plugin. Inside the plugin the only thing needs to specify is the message field name.<br>
+<p>Sub-transformation should start with 'Get records from stream' plugin. Inside the plugin the only thing needs to specify is the message field name.
+</p>
 ![Alt text](img/Sent-Email-Stream.JPG?raw=true "Sent-Email Transformation")
