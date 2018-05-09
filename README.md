@@ -10,8 +10,7 @@ There are 2 transformation files:
 1. Sent-Mail-Consumer.ktr<br>
 This is the parent transformation, where details about Kafka is needed, and also the sub-transformation location path.<br>
 ![Alt text](img/Sent-Mail-Consumer.JPG?raw=true "Sent-Mail-Consumer Transformation")
-<br>
-<br>
+<br><br>
 ![Alt text](img/Sent-Mail-Consumer-Details.JPG?raw=true "Detail of Kafka Consumer")
 
 2. Sent-Email.ktr<br>
