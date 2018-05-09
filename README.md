@@ -1,6 +1,6 @@
 # Pentaho Data Integration x Apache Kafka
 
-How to get stream data from Kafka topic using Pentaho Data Integration (kettle).
+How to get stream data from Kafka topic using Pentaho Data Integration (Kettle).
 
 Official tutorial: https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Transformation_Step_Reference/Kafka_Consumer
 
